@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(40, 61, 177, 0.21);
+}
+
+.container .jumbotron{
+    margin-top: 30px;
+    text-align: center;
+}
+fieldset{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgba(110, 129, 255, 0.27);
+}
+fieldset input[type='text'],fieldset input[type='file'],fieldset input[type='number']{
+    border: transparent;
+    background-color: rgba(40, 61, 177, 0.13);
+}
+fieldset textarea{
+    background-color: rgba(40, 61, 177, 0.13);
+    border-radius: 5px;
+}
